@@ -1,0 +1,1 @@
+case_id,claim_family_id,annotator_id,claim_text,atomic_id,atomic_text,evidence_id,evidence_source_url,evidence_pub_date,source_type,source_group,relation,applicable,mismatch_type,is_decisive,claim_verdict,annotator_notes

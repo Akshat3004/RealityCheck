@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realitycheck-research"
+version = "0.1.0"
+description = "Claim-evidence verification experiments for the RealityCheck GenAI project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+llm = ["openai>=1.0,<4.0"]
+
+[tool.setuptools.packages.find]
+include = ["realitycheck*"]

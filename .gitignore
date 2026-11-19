@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# API credentials and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+
+# Generated outputs / local datasets
+outputs/*
+!outputs/.gitkeep
+data/raw/
+data/processed/
+data/private/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
